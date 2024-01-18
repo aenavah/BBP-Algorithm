@@ -4,7 +4,11 @@ implicit none
 integer :: n = 0
 real :: threshold, pi_approx = 0.0,  pi_true = acos(-1.d0)
 
-call threshold_crit(.000010, pi_approx, n)
+open(20, file = "input.dat")
+read(20, *) threshold
+close(20)
+write(*,*) threshold
+call threshold_crit(threshold, pi_approx, n)
 
 CONTAINS
 
@@ -27,6 +31,7 @@ CONTAINS
       current_iteration = next_iteration(n)
       pi_approx = pi_approx + current_iteration
       n  = n + 1 
+      write(*,*) diff
     end do 
     
   write(*,*) "n: ", n
