@@ -1,5 +1,5 @@
 FC = gfortran
-FFLAGS = -g -Wall -Wextra -Wimplicit-interface -fmax-errors=5
+FFLAGS = -g -Wall -Wextra -Wimplicit-interface -fmax-errors=5 -fdefault-real-8
 
 OBJ = BBP_Algorithm.o
 

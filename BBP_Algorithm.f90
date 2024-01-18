@@ -31,7 +31,6 @@ CONTAINS
       current_iteration = next_iteration(n)
       pi_approx = pi_approx + current_iteration
       n  = n + 1 
-      write(*,*) diff
     end do 
     
   write(*,*) "n: ", n
