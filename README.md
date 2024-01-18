@@ -5,6 +5,7 @@ Implementing the Bailey-Borwein-Plouffe(BBP) algorithm for approximating pi.
 ## Requirements
 
 Empty file "output.txt" to write output to within the root directory. Can be created using the "touch output.txt" command
+
 File "input.txt" described below also within the root directory.
 
 ## Inputs
