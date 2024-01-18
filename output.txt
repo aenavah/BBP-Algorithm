@@ -2,3 +2,4 @@
  Threshold value:    1.0000000000000000E-008 N:            6 Error:    8.1294566633971499E-009
  Threshold value:    9.9999999999999998E-013 N:            9 Error:    8.2023277059306565E-013
  Threshold value:    9.9999999999999998E-017 N:           12 Error:    0.0000000000000000     
+ Threshold value:    9.9999999999999998E-017 N:           12 Error:    0.0000000000000000     

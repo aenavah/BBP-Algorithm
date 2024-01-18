@@ -20,6 +20,13 @@ The value in "input.dat" will indicate the desired threshold of error for approx
 
 Note that in fortran 1.0E-2 is equivalent to 1/100.
 
+# Running Code
+
+```
+make clean && make
+./BBP_Algorithm.ex
+```
+
 # Output
 
 Found in "output.txt"
