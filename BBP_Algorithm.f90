@@ -35,6 +35,9 @@ CONTAINS
     
   write(*,*) "n: ", n
   write(*,*) "Error: ", diff  
+  open(30, file = "output.txt", status = "old", position = "append", action = "write")
+  write(30, *) "Threshold value: ", threshold, "N: ", n, "Error: ", diff
+  close(30)
   end subroutine threshold_crit 
 
 end PROGRAM BBP_Algorithm
